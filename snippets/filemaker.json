@@ -1183,13 +1183,13 @@
 	},
 	"JSONSetElement": {
 		"prefix": "jsonset",
-		"body": "JSONSetElement ( ${1:\"\"} ;\n\t[ \"${2:key}\" ; ${3:value} ; ${4:JSONString} ]${5}\n)$0",
+		"body": "JSONSetElement ( ${1:\"\"} ;\n\t[ \"${2:key}\" ; ${3:value} ; ${4:JSONString} ]$0\n)",
 		"description": "JSONSetElement",
 		"scope": "source.filemaker"
 	},
 	"JSONSetElement Array": {
 		"prefix": "jsonsetarr",
-		"body": "JSONSetElement ( \"[]\" ;\n\t[ ${1:0} ; ${2:value} ; ${3:JSONString} ]${4}\n)$0",
+		"body": "JSONSetElement ( \"[]\" ;\n\t[ ${1:0} ; ${2:value} ; ${3:JSONString} ]$0\n)",
 		"description": "JSONSetElement",
 		"scope": "source.filemaker"
 	},
