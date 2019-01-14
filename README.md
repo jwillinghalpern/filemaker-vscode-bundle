@@ -12,8 +12,8 @@ For example if there is an image subfolder under your extension project workspac
 ## Attribution
 
 Ported from Donovan Chandler's textmate bundle. Originally forked from Matt Petrowsky's repo.
-DC: https://github.com/DonovanChan/Filemaker.tmbundle
-MP: https://github.com/petrowsky/filemaker.tmbundle
+- DC: https://github.com/DonovanChan/Filemaker.tmbundle
+- MP: https://github.com/petrowsky/filemaker.tmbundle
 
 ## Requirements
 
