@@ -1,4 +1,4 @@
-# filemaker README
+# filemaker-vscode-bundle README
 
 Filemaker syntax and snippets for Visual Studio Code
 
