@@ -1,0 +1,29 @@
+{
+    "name": "filemaker",
+    "displayName": "filemaker",
+    "description": "filemaker calc",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "filemaker",
+            "aliases": ["Filemaker", "filemaker"],
+            "extensions": [".fmfn",".calc"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "filemaker",
+            "scopeName": "source.filemaker",
+            "path": "./syntaxes/FileMaker.tmLanguage"
+        }],
+        "snippets": [{
+            "language": "filemaker",
+            "path": "./snippets/filemaker.json"    
+        }]
+    }
+}
