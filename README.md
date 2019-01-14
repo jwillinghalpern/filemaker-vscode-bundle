@@ -9,8 +9,9 @@ Autocomplete with tabstops + syntax highlighting and auto-creation of brackets/p
 ## Attribution
 
 Ported from Donovan Chandler's textmate bundle. Originally forked from Matt Petrowsky's repo.
-DC: <https://github.com/DonovanChan/Filemaker.tmbundle>
-MP: <https://github.com/petrowsky/filemaker.tmbundle>
+
+- DC: <https://github.com/DonovanChan/Filemaker.tmbundle>
+- MP: <https://github.com/petrowsky/filemaker.tmbundle>
 
 ## Requirements
 
