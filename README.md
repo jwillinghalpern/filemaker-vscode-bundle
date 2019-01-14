@@ -4,9 +4,7 @@ Filemaker syntax and snippets for Visual Studio Code
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
+Autocomplete with tabstops + syntax highlighting and auto-creation of brackets/parentheses etc...
 
 ## Attribution
 
