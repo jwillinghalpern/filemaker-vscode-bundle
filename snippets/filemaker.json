@@ -1756,5 +1756,161 @@
 		"body": "YearName ( ${1:date} )$0",
 		"description": "YearName",
 		"scope": "source.filemaker"
+	},
+
+
+	
+	// ================================================================================
+	// NEW ADDITIONS
+	// ================================================================================
+	"Base64EncodeRFC": {
+		"prefix": "Base64EncodeRFC",
+		"body": "Base64EncodeRFC ( ${1:RFCNumber} ; ${2:data} )",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"CryptAuthCode": {
+		"prefix": "CryptAuthCode",
+		"body": "CryptAuthCode ( ${1:data} ; ${2:algorithm} ; ${3:key} )",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"CryptDecrypt": {
+		"prefix": "CryptDecrypt",
+		"body": "CryptDecrypt ( ${1:container} ; ${2:key} )",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"CryptDecryptBase64": {
+		"prefix": "CryptDecryptBase64",
+		"body": "CryptDecryptBase64 ( ${1:text} ; ${2:key} )",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"CryptDigest": {
+		"prefix": "CryptDigest",
+		"body": "CryptDigest ( ${1:data} ; ${2:algorithm} )",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"CryptEncrypt": {
+		"prefix": "CryptEncrypt",
+		"body": "CryptEncrypt ( ${1:data} ; ${2:key} )",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"CryptEncryptBase64": {
+		"prefix": "CryptEncryptBase64",
+		"body": "CryptEncryptBase64 ( ${1:data} ; ${2:key} )",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"Furigana": {
+		"prefix": "Furigana",
+		"body": "Furigana ( ${1:text} ; ${2:option} )",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"GetAVPlayerAttribute": {
+		"prefix": "GetAVPlayerAttribute",
+		"body": "GetAVPlayerAttribute ( ${1:attributeName} )",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"GetSensor": {
+		"prefix": "GetSensor",
+		"body": "GetSensor ( ${1:sensorName} ; ${2:option1} ; ${3:option2} )",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"GetThumbnail": {
+		"prefix": "GetThumbnail",
+		"body": "GetThumbnail ( ${1:field} ; ${2:width} ; ${3:height} )",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"HexDecode": {
+		"prefix": "HexDecode",
+		"body": "HexDecode ( ${1:date} ; ${2:fileNameWithExtension} )",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"HexEncode": {
+		"prefix": "HexEncode",
+		"body": "HexEncode ( ${1:option} )",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"Pi": {
+		"prefix": "Pi",
+		"body": "Pi",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"Random": {
+		"prefix": "Random",
+		"body": "Random",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"RangeBeacons": {
+		"prefix": "RangeBeacons",
+		"body": "RangeBeacons ( ${1:UUID} {; ${2:timeout} ; ${2:major} ; ${3:minor} })",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"Self": {
+		"prefix": "Self",
+		"body": "Self",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"SortValues Simple": {
+		"prefix": "sortvalues",
+		"body": "SortValues ( ${1:values} )",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"SortValues": {
+		"prefix": "sortvalues",
+		"body": "SortValues ( ${1:values} {; ${2:datatype} ; ${3:locale} })",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"TextColorRemove": {
+		"prefix": "TextColorRemove",
+		"body": "TextColorRemove ( ${1:text} {; ${2:RGB()} } )",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"TextDecode": {
+		"prefix": "TextDecode",
+		"body": "TextDecode ( ${1:container} ; ${2:encoding} )",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"TextEncode": {
+		"prefix": "TextEncode",
+		"body": "TextEncode ( ${1:text} ; ${2:encoding} ; ${3:lineEndings} )",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"TrimAll": {
+		"prefix": "TrimAll",
+		"body": "TrimAll ( ${1:text} ; ${2:trimSpaces} ; ${3:trimType} )",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"UniqueValues": {
+		"prefix": "UniqueValues",
+		"body": "UniqueValues ( ${1:values} {; ${2:dataType} ; ${3:locale} })",
+		"description": "",
+		"scope": "source.filemaker"
+	},
+	"UniqueValues Simple": {
+		"prefix": "UniqueValues",
+		"body": "UniqueValues ( ${1:values} )",
+		"description": "",
+		"scope": "source.filemaker"
 	}
 }
