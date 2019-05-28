@@ -841,8 +841,8 @@
 	  "description": "PV",
 	  "scope": "source.filemaker"
 	},
-	"pcount": {
-	  "prefix": "pcount",
+	"patterncount": {
+	  "prefix": "patternc",
 	  "body": "PatternCount ( ${1:text} ; ${2:searchString} )$0",
 	  "description": "PatternCount",
 	  "scope": "source.filemaker"
@@ -1931,6 +1931,42 @@
 		"prefix": "get",
 		"body": "Get ( WindowZoomLevel )",
 		"description": "WindowZoomLevel",
+		"scope": "source.filemaker"
+	},
+	"while": {
+		"prefix": "while",
+		"body": "While ([\n\t${1:initValue1} = ${2:value1} ;\n\t${3:initValue2} = ${4:value2}\n];\n${5:condition};\n[\n\t${6:logic}\n];\n${7:result}\n)$0",
+		"description": "while",
+		"scope": "source.filemaker"
+		},
+	"CryptGenerateSignature": {
+		"prefix": "cryptgenerate",
+		"body": "CryptGenerateSignature ( ${1:data} ; ${2:algorithm} ; ${3:privateRSAKey} ; ${4:keyPassword} )",
+		"description": "CryptGenerateSignature",
+		"scope": "source.filemaker"
+	},
+	"CryptVerifySignature": {
+		"prefix": "cryptverify",
+		"body": "CryptVerifySignature ( ${1:data} ; ${2:alogrithm} ; ${3:publicRSAKey} ; ${4:signature} )",
+		"description": "CryptVerifySignature",
+		"scope": "source.filemaker"
+	},
+	"get(AccountType)": {
+		"prefix": "get",
+		"body": "Get ( AccountType )",
+		"description": "AccountType",
+		"scope": "source.filemaker"
+	},
+	"SetRecursion": {
+		"prefix": "setrecur",
+		"body": "SetRecursion ( ${1:expression} ; ${2:maxIteration} )",
+		"description": "SetRecursion",
+		"scope": "source.filemaker"
+	},
+	"get(OpenDataFileInfo)": {
+		"prefix": "get",
+		"body": "Get ( OpenDataFileInfo )",
+		"description": "OpenDataFileInfo",
 		"scope": "source.filemaker"
 	}
 }
