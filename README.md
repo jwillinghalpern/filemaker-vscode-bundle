@@ -22,9 +22,3 @@ none
 To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
 
 For more info, read vsc-extension-quickstart.md
-
-## Release Notes
-
-### 0.0.1
-
-Initial release
