@@ -12,7 +12,7 @@
     "contributes": {
         "languages": [{
             "id": "filemaker",
-            "aliases": ["Filemaker", "filemaker"],
+            "aliases": ["FileMaker", "Filemaker", "filemaker"],
             "extensions": [".fmfn",".calc"],
             "configuration": "./language-configuration.json"
         }],
