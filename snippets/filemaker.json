@@ -60,7 +60,7 @@
 	},
 	"Custom Function Header": {
 	  "prefix": "cfhead",
-	  "body": "/**\n * =====================================\n * ${1:function} ( ${2:parameters} )\n *\n * PURPOSE:\n *\t\t${3:purpose}\n *\n * RETURNS:\n *\t\t${4:returns description}\n *\n * PARAMETERS:\n *\t\t${5:param} | ${6:description}\n *\n * DEPENDENCIES: none\n *\n * NOTES:\n *\n * HISTORY:\n *\t\tCREATED on $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE by ${7:Josh Willing} ${8:<http://scr.im/willing>}\n * =====================================\n */$0",
+	  "body": "/**\n * =====================================\n * ${1:function} ( ${2:parameters} )\n *\n * PURPOSE:\n *\t\t${3:purpose}\n *\n * RETURNS:\n *\t\t${4:returns description}\n *\n * PARAMETERS:\n *\t\t${5:param} | ${6:description}\n *\n * DEPENDENCIES: none\n *\n * NOTES:\n *\n * HISTORY:\n *\t\tCREATED on $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE by ${7:name} ${8:email}\n * =====================================\n */\n$0",
 	  "description": "Custom Function Header",
 	  "scope": "source.filemaker"
 	},

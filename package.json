@@ -2,7 +2,13 @@
     "name": "filemaker-vscode",
     "displayName": "FileMaker VSCode",
     "description": "FileMaker syntax highlighting and snippets for Visual Studio Code",
-    "version": "2.0.0",
+    "version": "1.0.1",
+    "publisher": "jwillinghalpern",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jwillinghalpern/filemaker-vscode-bundle"
+    },
+    "icon": "resources/filemaker-vscode-128.png",
     "engines": {
         "vscode": "^1.30.0"
     },
@@ -10,33 +16,27 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [
-            {
-                "id": "filemaker",
-                "aliases": [
-                    "FileMaker",
-                    "Filemaker",
-                    "filemaker"
-                ],
-                "extensions": [
-                    ".fmfn",
-                    ".calc"
-                ],
-                "configuration": "./language-configuration.json"
-            }
-        ],
-        "grammars": [
-            {
-                "language": "filemaker",
-                "scopeName": "source.filemaker",
-                "path": "./syntaxes/FileMaker.tmLanguage"
-            }
-        ],
-        "snippets": [
-            {
-                "language": "filemaker",
-                "path": "./snippets/filemaker.json"
-            }
-        ]
+        "languages": [{
+            "id": "filemaker",
+            "aliases": [
+                "FileMaker",
+                "Filemaker",
+                "filemaker"
+            ],
+            "extensions": [
+                ".fmfn",
+                ".calc"
+            ],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "filemaker",
+            "scopeName": "source.filemaker",
+            "path": "./syntaxes/FileMaker.tmLanguage"
+        }],
+        "snippets": [{
+            "language": "filemaker",
+            "path": "./snippets/filemaker.json"
+        }]
     }
 }

@@ -1,8 +1,16 @@
 # Change Log
 
-All notable changes to the "filemaker" extension will be documented in this file.
-
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+
+## [1.0.1] - 2019-12-19
+
+- add logo by Carson Lind
+- fix cfheader
+- Improve readme
+
+## [1.0.0] - 2019-12-18
+
+- initial release on the VSCode extension marketplace
 
 ## [0.0.3] - 2019-05-28
 
@@ -25,5 +33,5 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Initial release
 - added
   - JSON
-- modified
+- modifieds
   - let and calc
