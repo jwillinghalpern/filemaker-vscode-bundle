@@ -2,7 +2,7 @@
     "name": "filemaker-vscode",
     "displayName": "FileMaker VSCode",
     "description": "FileMaker syntax highlighting and snippets for Visual Studio Code",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "engines": {
         "vscode": "^1.30.0"
     },
