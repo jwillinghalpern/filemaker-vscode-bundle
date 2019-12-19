@@ -1,6 +1,7 @@
 # filemaker-vscode-bundle README
 
 Filemaker syntax and snippets for Visual Studio Code
+https://github.com/jwillinghalpern/filemaker-vscode-bundle
 
 ## Features
 
