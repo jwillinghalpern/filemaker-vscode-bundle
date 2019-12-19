@@ -1,8 +1,8 @@
 {
-    "name": "filemaker",
-    "displayName": "filemaker",
-    "description": "filemaker calc",
-    "version": "0.0.1",
+    "name": "filemaker-vscode",
+    "displayName": "FileMaker VSCode",
+    "description": "FileMaker syntax highlighting and snippets for Visual Studio Code",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.30.0"
     },
