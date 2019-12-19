@@ -9,13 +9,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### added
 
 - FileMaker 18 functions
-    - While, SetRecursion, CryptGenerateSignature, CryptVerifySignature, Get ( AccountType ), and Get ( OpenDataFieldType )
+  - While, SetRecursion, CryptGenerateSignature, CryptVerifySignature, Get ( AccountType ), and Get ( OpenDataFieldType )
 - Changed pcount prefix to patternc
-
 
 ## [0.0.2] - 2019-02-24
 
-### added 
+### added
 
 - Get(_flag_) expansions
 - Case, Let, Esql options
