@@ -28,7 +28,7 @@ The syntax and original snippets were ported from Donovan Chandler's textmate bu
 
 - DC: <https://github.com/DonovanChan/Filemaker.tmbundle>
 - MP: <https://github.com/petrowsky/filemaker.tmbundle>
-- Awesome icon by Carson Lind <http://eagleoptimizations.com/>
+- Awesome icon by Carson Lind <https://eagleoptimizations.com/>
 
 ## Notes
 
