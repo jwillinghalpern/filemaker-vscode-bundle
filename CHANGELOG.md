@@ -2,6 +2,10 @@
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.1.0] - 2020-07-03
+
+- add fm 19 functions and get params
+
 ## [1.0.1] - 2019-12-19
 
 - add logo by Carson Lind
