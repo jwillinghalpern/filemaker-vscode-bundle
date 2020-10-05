@@ -2,7 +2,7 @@
     "name": "filemaker-vscode",
     "displayName": "FileMaker VSCode",
     "description": "FileMaker syntax highlighting and snippets for Visual Studio Code",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "publisher": "jwillinghalpern",
     "repository": {
         "type": "git",
@@ -16,27 +16,33 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "filemaker",
-            "aliases": [
-                "FileMaker",
-                "Filemaker",
-                "filemaker"
-            ],
-            "extensions": [
-                ".fmfn",
-                ".calc"
-            ],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "filemaker",
-            "scopeName": "source.filemaker",
-            "path": "./syntaxes/FileMaker.tmLanguage"
-        }],
-        "snippets": [{
-            "language": "filemaker",
-            "path": "./snippets/filemaker.json"
-        }]
+        "languages": [
+            {
+                "id": "filemaker",
+                "aliases": [
+                    "FileMaker",
+                    "Filemaker",
+                    "filemaker"
+                ],
+                "extensions": [
+                    ".fmfn",
+                    ".calc"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "filemaker",
+                "scopeName": "source.filemaker",
+                "path": "./syntaxes/FileMaker.tmLanguage"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "filemaker",
+                "path": "./snippets/filemaker.json"
+            }
+        ]
     }
 }
