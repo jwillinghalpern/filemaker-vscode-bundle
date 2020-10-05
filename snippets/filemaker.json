@@ -1519,6 +1519,12 @@
 		"description": "ExtendedPrivileges",
 		"scope": "source.filemaker"
 	},
+	"get(FileLocaleElements)": {
+		"prefix": "get",
+		"body": "Get ( FileLocaleElements )",
+		"description": "Returns a JSON object with information about the current file's locale.",
+		"scope": "source.filemaker"
+	},
 	"get(FileMakerPath)": {
 		"prefix": "get",
 		"body": "Get ( FileMakerPath )",
@@ -1781,6 +1787,12 @@
 		"prefix": "get",
 		"body": "Get ( SystemAppearance )",
 		"description": "Returns the name of the current operating system appearance",
+		"scope": "source.filemaker"
+	},
+	"Get(SystemLocaleElements)": {
+		"prefix": "get",
+		"body": "Get ( SystemLocaleElements )",
+		"description": "Returns a JSON object with information about the client system's locale.",
 		"scope": "source.filemaker"
 	},
 	"get(StatusAreaState)": {
