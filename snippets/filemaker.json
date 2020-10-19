@@ -378,111 +378,111 @@
 		"scope": "source.filemaker"
 	},
 	"getattri": {
-		"prefix": "getattri",
+		"prefix": ["GetLayoutObjectAttribute ( ", "getattri"],
 		"body": "GetLayoutObjectAttribute ( ${1:\"${2:objectName}\"} ; \"${3:bottom}\"${4: ; ${5:repetitionNumber}${6: ; ${7:portalRowNumber}}} )$0",
 		"description": "GetLayoutObjectAttribute - bottom",
 		"scope": "source.filemaker"
 	},
+	"getattr": {
+		"prefix": ["GetLayoutObjectAttribute ( ", "getattr"],
+		"body": "GetLayoutObjectAttribute ( ${1:\"${2:objectName}\"} ; \"${3:objectType | hasFocus | containsFocus | isFrontPanel | isActive | isObjectHidden | bounds | left | right | top | bottom | width | height | rotation | startPoint | endPoint | source | content | enclosingObject | containedObjects}\"${4: ; ${5:repetitionNumber}${6: ; ${7:portalRowNumber}}} )$0",
+		"description": "GetLayoutObjectAttribute",
+		"scope": "source.filemaker"
+	},
 	"getattri1": {
-		"prefix": "getattri",
+		"prefix": ["GetLayoutObjectAttribute ( ", "getattri"],
 		"body": "GetLayoutObjectAttribute ( ${1:\"${2:objectName}\"} ; \"${3:bounds}\"${4: ; ${5:repetitionNumber}${6: ; ${7:portalRowNumber}}} )$0",
 		"description": "GetLayoutObjectAttribute - bounds",
 		"scope": "source.filemaker"
 	},
 	"getattri2": {
-		"prefix": "getattri",
+		"prefix": ["GetLayoutObjectAttribute ( ", "getattri"],
 		"body": "GetLayoutObjectAttribute ( ${1:\"${2:objectName}\"} ; \"${3:containedObjects}\"${4: ; ${5:repetitionNumber}${6: ; ${7:portalRowNumber}}} )$0",
 		"description": "GetLayoutObjectAttribute - containedObjects",
 		"scope": "source.filemaker"
 	},
 	"getattri3": {
-		"prefix": "getattri",
+		"prefix": ["GetLayoutObjectAttribute ( ", "getattri"],
 		"body": "GetLayoutObjectAttribute ( ${1:\"${2:objectName}\"} ; \"${3:containsFocus}\"${4: ; ${5:repetitionNumber}${6: ; ${7:portalRowNumber}}} )$0",
 		"description": "GetLayoutObjectAttribute - containsFocus",
 		"scope": "source.filemaker"
 	},
 	"getattri4": {
-		"prefix": "getattri",
+		"prefix": ["GetLayoutObjectAttribute ( ", "getattri"],
 		"body": "GetLayoutObjectAttribute ( ${1:\"${2:objectName}\"} ; \"${3:content}\"${4: ; ${5:repetitionNumber}${6: ; ${7:portalRowNumber}}} )$0",
 		"description": "GetLayoutObjectAttribute - content",
 		"scope": "source.filemaker"
 	},
 	"getattri5": {
-		"prefix": "getattri",
+		"prefix": ["GetLayoutObjectAttribute ( ", "getattri"],
 		"body": "GetLayoutObjectAttribute ( ${1:\"${2:objectName}\"} ; \"${3:enclosingObject}\"${4: ; ${5:repetitionNumber}${6: ; ${7:portalRowNumber}}} )$0",
 		"description": "GetLayoutObjectAttribute - enclosingObject",
 		"scope": "source.filemaker"
 	},
 	"getattri6": {
-		"prefix": "getattri",
+		"prefix": ["GetLayoutObjectAttribute ( ", "getattri"],
 		"body": "GetLayoutObjectAttribute ( ${1:\"${2:objectName}\"} ; \"${3:hasFocus}\"${4: ; ${5:repetitionNumber}${6: ; ${7:portalRowNumber}}} )$0",
 		"description": "GetLayoutObjectAttribute - hasFocus",
 		"scope": "source.filemaker"
 	},
 	"getattri7": {
-		"prefix": "getattri",
+		"prefix": ["GetLayoutObjectAttribute ( ", "getattri"],
 		"body": "GetLayoutObjectAttribute ( ${1:\"${2:objectName}\"} ; \"${3:height}\"${4: ; ${5:repetitionNumber}${6: ; ${7:portalRowNumber}}} )$0",
 		"description": "GetLayoutObjectAttribute - height",
 		"scope": "source.filemaker"
 	},
 	"getattri8": {
-		"prefix": "getattri",
+		"prefix": ["GetLayoutObjectAttribute ( ", "getattri"],
 		"body": "GetLayoutObjectAttribute ( ${1:\"${2:objectName}\"} ; \"${3:isFrontTabPanel}\" )$0",
 		"description": "GetLayoutObjectAttribute - isFrontTabPanel",
 		"scope": "source.filemaker"
 	},
 	"getattri9": {
-		"prefix": "getattri",
+		"prefix": ["GetLayoutObjectAttribute ( ", "getattri"],
 		"body": "GetLayoutObjectAttribute ( ${1:\"${2:objectName}\"} ; \"${3:left}\"${4: ; ${5:repetitionNumber}${6: ; ${7:portalRowNumber}}} )$0",
 		"description": "GetLayoutObjectAttribute - left",
 		"scope": "source.filemaker"
 	},
 	"getattri10": {
-		"prefix": "getattri",
+		"prefix": ["GetLayoutObjectAttribute ( ", "getattri"],
 		"body": "GetLayoutObjectAttribute ( ${1:\"${2:objectName}\"} ; \"${3:objectType}\"${4: ; ${5:repetitionNumber}${6: ; ${7:portalRowNumber}}} )$0",
 		"description": "GetLayoutObjectAttribute - objectType",
 		"scope": "source.filemaker"
 	},
 	"getattri11": {
-		"prefix": "getattri",
+		"prefix": ["GetLayoutObjectAttribute ( ", "getattri"],
 		"body": "GetLayoutObjectAttribute ( ${1:\"${2:objectName}\"} ; \"${3:right}\"${4: ; ${5:repetitionNumber}${6: ; ${7:portalRowNumber}}} )$0",
 		"description": "GetLayoutObjectAttribute - right",
 		"scope": "source.filemaker"
 	},
 	"getattri12": {
-		"prefix": "getattri",
+		"prefix": ["GetLayoutObjectAttribute ( ", "getattri"],
 		"body": "GetLayoutObjectAttribute ( ${1:\"${2:objectName}\"} ; \"${3:rotation}\"${4: ; ${5:repetitionNumber}${6: ; ${7:portalRowNumber}}} )$0",
 		"description": "GetLayoutObjectAttribute - rotation",
 		"scope": "source.filemaker"
 	},
 	"getattri13": {
-		"prefix": "getattri",
+		"prefix": ["GetLayoutObjectAttribute ( ", "getattri"],
 		"body": "GetLayoutObjectAttribute ( ${1:\"${2:objectName}\"} ; \"${3:source}\"${4: ; ${5:repetitionNumber}${6: ; ${7:portalRowNumber}}} )$0",
 		"description": "GetLayoutObjectAttribute - source",
 		"scope": "source.filemaker"
 	},
 	"getattri14": {
-		"prefix": "getattri",
+		"prefix": ["GetLayoutObjectAttribute ( ", "getattri"],
 		"body": "GetLayoutObjectAttribute ( ${1:\"${2:objectName}\"} ; \"${3:startPoint,endPoint}\"${4: ; ${5:repetitionNumber}${6: ; ${7:portalRowNumber}}} )$0",
 		"description": "GetLayoutObjectAttribute - startPoint,endPoint",
 		"scope": "source.filemaker"
 	},
 	"getattri15": {
-		"prefix": "getattri",
+		"prefix": ["GetLayoutObjectAttribute ( ", "getattri"],
 		"body": "GetLayoutObjectAttribute ( ${1:\"${2:objectName}\"} ; \"${3:top}\"${4: ; ${5:repetitionNumber}${6: ; ${7:portalRowNumber}}} )$0",
 		"description": "GetLayoutObjectAttribute - top",
 		"scope": "source.filemaker"
 	},
 	"getattri16": {
-		"prefix": "getattri",
+		"prefix": ["GetLayoutObjectAttribute ( ", "getattri"],
 		"body": "GetLayoutObjectAttribute ( ${1:\"${2:objectName}\"} ; \"${3:width}\"${4: ; ${5:repetitionNumber}${6: ; ${7:portalRowNumber}}} )$0",
 		"description": "GetLayoutObjectAttribute - width",
-		"scope": "source.filemaker"
-	},
-	"getattr": {
-		"prefix": "getattr",
-		"body": "GetLayoutObjectAttribute ( ${1:\"${2:objectName}\"} ; \"${3:objectType | hasFocus | containsFocus | isFrontTabPanel | bounds | left | right | top | bottom | width | height | rotation | startPoint,endPoint | source | content | enclosingObject | containedObjects}\"${4: ; ${5:repetitionNumber}${6: ; ${7:portalRowNumber}}} )$0",
-		"description": "GetLayoutObjectAttribute",
 		"scope": "source.filemaker"
 	},
 	"getmod": {
@@ -1370,601 +1370,619 @@
 		"scope": "source.filemaker"
 	},
 	"get(AccountName)": {
-		"prefix": "get",
+		"prefix": "Get ( AccountName )",
 		"body": "Get ( AccountName )",
 		"description": "AccountName",
 		"scope": "source.filemaker"
 	},
+	"get(AccountType)": {
+		"prefix": "Get ( AccountType )",
+		"body": "Get ( AccountType )",
+		"description": "AccountType",
+		"scope": "source.filemaker"
+	},
 	"get(ActiveFieldContents)": {
-		"prefix": "get",
+		"prefix": "Get ( ActiveFieldContents )",
 		"body": "Get ( ActiveFieldContents )",
 		"description": "ActiveFieldContents",
 		"scope": "source.filemaker"
 	},
 	"get(ActiveFieldName)": {
-		"prefix": "get",
+		"prefix": "Get ( ActiveFieldName )",
 		"body": "Get ( ActiveFieldName )",
 		"description": "ActiveFieldName",
 		"scope": "source.filemaker"
 	},
 	"get(ActiveFieldTableName)": {
-		"prefix": "get",
+		"prefix": "Get ( ActiveFieldTableName )",
 		"body": "Get ( ActiveFieldTableName )",
 		"description": "ActiveFieldTableName",
 		"scope": "source.filemaker"
 	},
 	"get(ActiveLayoutObjectName)": {
-		"prefix": "get",
+		"prefix": "Get ( ActiveLayoutObjectName )",
 		"body": "Get ( ActiveLayoutObjectName )",
 		"description": "ActiveLayoutObjectName",
 		"scope": "source.filemaker"
 	},
 	"get(ActiveModifierKeys)": {
-		"prefix": "get",
+		"prefix": "Get ( ActiveModifierKeys )",
 		"body": "Get ( ActiveModifierKeys )",
 		"description": "ActiveModifierKeys",
 		"scope": "source.filemaker"
 	},
 	"get(ActiveRepetitionNumber)": {
-		"prefix": "get",
+		"prefix": "Get ( ActiveRepetitionNumber )",
 		"body": "Get ( ActiveRepetitionNumber )",
 		"description": "ActiveRepetitionNumber",
 		"scope": "source.filemaker"
 	},
 	"get(ActiveSelectionSize)": {
-		"prefix": "get",
+		"prefix": "Get ( ActiveSelectionSize )",
 		"body": "Get ( ActiveSelectionSize )",
 		"description": "ActiveSelectionSize",
 		"scope": "source.filemaker"
 	},
 	"get(ActiveSelectionStart)": {
-		"prefix": "get",
+		"prefix": "Get ( ActiveSelectionStart )",
 		"body": "Get ( ActiveSelectionStart )",
 		"description": "ActiveSelectionStart",
 		"scope": "source.filemaker"
 	},
 	"get(AllowAbortState)": {
-		"prefix": "get",
+		"prefix": "Get ( AllowAbortState )",
 		"body": "Get ( AllowAbortState )",
 		"description": "AllowAbortState",
 		"scope": "source.filemaker"
 	},
 	"get(AllowToolbarState)": {
-		"prefix": "get",
+		"prefix": "Get ( AllowToolbarState )",
 		"body": "Get ( AllowToolbarState )",
 		"description": "AllowToolbarState",
 		"scope": "source.filemaker"
 	},
 	"get(ApplicationLanguage)": {
-		"prefix": "get",
+		"prefix": "Get ( ApplicationLanguage )",
 		"body": "Get ( ApplicationLanguage )",
 		"description": "ApplicationLanguage",
 		"scope": "source.filemaker"
 	},
 	"get(ApplicationVersion)": {
-		"prefix": "get",
+		"prefix": "Get ( ApplicationVersion )",
 		"body": "Get ( ApplicationVersion )",
 		"description": "ApplicationVersion",
 		"scope": "source.filemaker"
 	},
 	"get(CalculationRepetitionNumber)": {
-		"prefix": "get",
+		"prefix": "Get ( CalculationRepetitionNumber )",
 		"body": "Get ( CalculationRepetitionNumber )",
 		"description": "CalculationRepetitionNumber",
 		"scope": "source.filemaker"
 	},
 	"get(ConnectionState)": {
-		"prefix": "get",
+		"prefix": "Get ( ConnectionState )",
 		"body": "Get ( ConnectionState )",
 		"description": "ConnectionState",
 		"scope": "source.filemaker"
 	},
 	"get(CurrentDate)": {
-		"prefix": "get",
+		"prefix": "Get ( CurrentDate )",
 		"body": "Get ( CurrentDate )",
 		"description": "CurrentDate",
 		"scope": "source.filemaker"
 	},
 	"get(CurrentHostTimestamp)": {
-		"prefix": "get",
+		"prefix": "Get ( CurrentHostTimestamp )",
 		"body": "Get ( CurrentHostTimestamp )",
 		"description": "CurrentHostTimestamp",
 		"scope": "source.filemaker"
 	},
 	"get(CurrentTime)": {
-		"prefix": "get",
+		"prefix": "Get ( CurrentTime )",
 		"body": "Get ( CurrentTime )",
 		"description": "CurrentTime",
 		"scope": "source.filemaker"
 	},
 	"get(CurrentTimestamp)": {
-		"prefix": "get",
+		"prefix": "Get ( CurrentTimestamp )",
 		"body": "Get ( CurrentTimestamp )",
 		"description": "CurrentTimestamp",
 		"scope": "source.filemaker"
 	},
 	"get(CustomMenuSetName)": {
-		"prefix": "get",
+		"prefix": "Get ( CustomMenuSetName )",
 		"body": "Get ( CustomMenuSetName )",
 		"description": "CustomMenuSetName",
 		"scope": "source.filemaker"
 	},
 	"get(DesktopPath)": {
-		"prefix": "get",
+		"prefix": "Get ( DesktopPath )",
 		"body": "Get ( DesktopPath )",
 		"description": "DesktopPath",
 		"scope": "source.filemaker"
 	},
 	"get(DocumentsPath)": {
-		"prefix": "get",
+		"prefix": "Get ( DocumentsPath )",
 		"body": "Get ( DocumentsPath )",
 		"description": "DocumentsPath",
 		"scope": "source.filemaker"
 	},
 	"get(DocumentsPathListing)": {
-		"prefix": "get",
+		"prefix": "Get ( DocumentsPathListing )",
 		"body": "Get ( DocumentsPathListing )",
 		"description": "DocumentsPathListing",
 		"scope": "source.filemaker"
 	},
 	"get(ErrorCaptureState)": {
-		"prefix": "get",
+		"prefix": "Get ( ErrorCaptureState )",
 		"body": "Get ( ErrorCaptureState )",
 		"description": "ErrorCaptureState",
 		"scope": "source.filemaker"
 	},
 	"get(ExtendedPrivileges)": {
-		"prefix": "get",
+		"prefix": "Get ( ExtendedPrivileges )",
 		"body": "Get ( ExtendedPrivileges )",
 		"description": "ExtendedPrivileges",
 		"scope": "source.filemaker"
 	},
 	"get(FileLocaleElements)": {
-		"prefix": "get",
+		"prefix": "Get ( FileLocaleElements )",
 		"body": "Get ( FileLocaleElements )",
 		"description": "Returns a JSON object with information about the current file's locale.",
 		"scope": "source.filemaker"
 	},
 	"get(FileMakerPath)": {
-		"prefix": "get",
+		"prefix": "Get ( FileMakerPath )",
 		"body": "Get ( FileMakerPath )",
 		"description": "FileMakerPath",
 		"scope": "source.filemaker"
 	},
 	"get(FileName)": {
-		"prefix": "get",
+		"prefix": "Get ( FileName )",
 		"body": "Get ( FileName )",
 		"description": "FileName",
 		"scope": "source.filemaker"
 	},
 	"get(FilePath)": {
-		"prefix": "get",
+		"prefix": "Get ( FilePath )",
 		"body": "Get ( FilePath )",
 		"description": "FilePath",
 		"scope": "source.filemaker"
 	},
 	"get(FileSize)": {
-		"prefix": "get",
+		"prefix": "Get ( FileSize )",
 		"body": "Get ( FileSize )",
 		"description": "FileSize",
 		"scope": "source.filemaker"
 	},
 	"get(FoundCount)": {
-		"prefix": "get",
+		"prefix": "Get ( FoundCount )",
 		"body": "Get ( FoundCount )",
 		"description": "FoundCount",
 		"scope": "source.filemaker"
 	},
 	"get(HighContrastColor)": {
-		"prefix": "get",
+		"prefix": "Get ( HighContrastColor )",
 		"body": "Get ( HighContrastColor )",
 		"description": "HighContrastColor",
 		"scope": "source.filemaker"
 	},
 	"get(HighContrastState)": {
-		"prefix": "get",
+		"prefix": "Get ( HighContrastState )",
 		"body": "Get ( HighContrastState )",
 		"description": "HighContrastState",
 		"scope": "source.filemaker"
 	},
 	"get(HostApplicationVersion)": {
-		"prefix": "get",
+		"prefix": "Get ( HostApplicationVersion )",
 		"body": "Get ( HostApplicationVersion )",
 		"description": "HostApplicationVersion",
 		"scope": "source.filemaker"
 	},
 	"get(HostHostIPAddress)": {
-		"prefix": "get",
+		"prefix": "Get ( HostIPAddress )",
 		"body": "Get ( HostIPAddress )",
 		"description": "HostIPAddress",
 		"scope": "source.filemaker"
 	},
 	"get(HostName)": {
-		"prefix": "get",
+		"prefix": "Get ( HostName )",
 		"body": "Get ( HostName )",
 		"description": "HostName",
 		"scope": "source.filemaker"
 	},
 	"get(InstalledFMPlugins)": {
-		"prefix": "get",
+		"prefix": "Get ( InstalledFMPlugins )",
 		"body": "Get ( InstalledFMPlugins )",
 		"description": "InstalledFMPlugins",
 		"scope": "source.filemaker"
 	},
 	"get(LastError)": {
-		"prefix": "get",
+		"prefix": "Get ( LastError )",
 		"body": "Get ( LastError )",
 		"description": "LastError",
 		"scope": "source.filemaker"
 	},
 	"get(LastMessageChoice)": {
-		"prefix": "get",
+		"prefix": "Get ( LastMessageChoice )",
 		"body": "Get ( LastMessageChoice )",
 		"description": "LastMessageChoice",
 		"scope": "source.filemaker"
 	},
 	"get(LastODBCError)": {
-		"prefix": "get",
+		"prefix": "Get ( LastODBCError )",
 		"body": "Get ( LastODBCError )",
 		"description": "LastODBCError",
 		"scope": "source.filemaker"
 	},
 	"get(LayoutAccess)": {
-		"prefix": "get",
+		"prefix": "Get ( LayoutAccess )",
 		"body": "Get ( LayoutAccess )",
 		"description": "LayoutAccess",
 		"scope": "source.filemaker"
 	},
 	"get(LayoutCount)": {
-		"prefix": "get",
+		"prefix": "Get ( LayoutCount )",
 		"body": "Get ( LayoutCount )",
 		"description": "LayoutCount",
 		"scope": "source.filemaker"
 	},
 	"get(LayoutName)": {
-		"prefix": "get",
+		"prefix": "Get ( LayoutName )",
 		"body": "Get ( LayoutName )",
 		"description": "LayoutName",
 		"scope": "source.filemaker"
 	},
 	"get(LayoutNumber)": {
-		"prefix": "get",
+		"prefix": "Get ( LayoutNumber )",
 		"body": "Get ( LayoutNumber )",
 		"description": "LayoutNumber",
 		"scope": "source.filemaker"
 	},
 	"get(LayoutTableName)": {
-		"prefix": "get",
+		"prefix": "Get ( LayoutTableName )",
 		"body": "Get ( LayoutTableName )",
 		"description": "LayoutTableName",
 		"scope": "source.filemaker"
 	},
 	"get(LayoutViewState)": {
-		"prefix": "get",
+		"prefix": "Get ( LayoutViewState )",
 		"body": "Get ( LayoutViewState )",
 		"description": "LayoutViewState",
 		"scope": "source.filemaker"
 	},
+	"get(OpenDataFileInfo)": {
+		"prefix": "Get ( OpenDataFileInfo )",
+		"body": "Get ( OpenDataFileInfo )",
+		"description": "OpenDataFileInfo",
+		"scope": "source.filemaker"
+	},
 	"get(MultiUserState)": {
-		"prefix": "get",
+		"prefix": "Get ( MultiUserState )",
 		"body": "Get ( MultiUserState )",
 		"description": "MultiUserState",
 		"scope": "source.filemaker"
 	},
 	"get(NetworkProtocol)": {
-		"prefix": "get",
+		"prefix": "Get ( NetworkProtocol )",
 		"body": "Get ( NetworkProtocol )",
 		"description": "NetworkProtocol",
 		"scope": "source.filemaker"
 	},
 	"get(PageNumber)": {
-		"prefix": "get",
+		"prefix": "Get ( PageNumber )",
 		"body": "Get ( PageNumber )",
 		"description": "PageNumber",
 		"scope": "source.filemaker"
 	},
 	"get(PersistentID)": {
-		"prefix": "get",
+		"prefix": "Get ( PersistentID )",
 		"body": "Get ( PersistentID )",
 		"description": "PersistentID",
 		"scope": "source.filemaker"
 	},
 	"get(PortalRowNumber)": {
-		"prefix": "get",
+		"prefix": "Get ( PortalRowNumber )",
 		"body": "Get ( PortalRowNumber )",
 		"description": "PortalRowNumber",
 		"scope": "source.filemaker"
 	},
 	"get(PreferencesPath)": {
-		"prefix": "get",
+		"prefix": "Get ( PreferencesPath )",
 		"body": "Get ( PreferencesPath )",
 		"description": "PreferencesPath",
 		"scope": "source.filemaker"
 	},
 	"get(PrinterName)": {
-		"prefix": "get",
+		"prefix": "Get ( PrinterName )",
 		"body": "Get ( PrinterName )",
 		"description": "PrinterName",
 		"scope": "source.filemaker"
 	},
-	"get(PrivilegeSetName)": {
-		"prefix": "get",
-		"body": "Get ( PrivilegeSetName )",
-		"description": "PrivilegeSetName",
+	"get(AccountPrivilegeSetName)": {
+		"prefix": "Get ( AccountPrivilegeSetName )",
+		"body": "Get ( AccountPrivilegeSetName )",
+		"description": "AccountPrivilegeSetName",
+		"scope": "source.filemaker"
+	},
+	"get(CurrentPrivilegeSetName)": {
+		"prefix": "Get ( CurrentPrivilegeSetName )",
+		"body": "Get ( CurrentPrivilegeSetName )",
+		"description": "CurrentPrivilegeSetName",
 		"scope": "source.filemaker"
 	},
 	"get(RecordAccess)": {
-		"prefix": "get",
+		"prefix": "Get ( RecordAccess )",
 		"body": "Get ( RecordAccess )",
 		"description": "RecordAccess",
 		"scope": "source.filemaker"
 	},
 	"get(RecordID)": {
-		"prefix": "get",
+		"prefix": "Get ( RecordID )",
 		"body": "Get ( RecordID )",
 		"description": "RecordID",
 		"scope": "source.filemaker"
 	},
 	"get(RecordModificationCount)": {
-		"prefix": "get",
+		"prefix": "Get ( RecordModificationCount )",
 		"body": "Get ( RecordModificationCount )",
 		"description": "RecordModificationCount",
 		"scope": "source.filemaker"
 	},
 	"get(RecordNumber)": {
-		"prefix": "get",
+		"prefix": "Get ( RecordNumber )",
 		"body": "Get ( RecordNumber )",
 		"description": "RecordNumber",
 		"scope": "source.filemaker"
 	},
 	"get(RecordOpenCount)": {
-		"prefix": "get",
+		"prefix": "Get ( RecordOpenCount )",
 		"body": "Get ( RecordOpenCount )",
 		"description": "RecordOpenCount",
 		"scope": "source.filemaker"
 	},
 	"get(RecordOpenState)": {
-		"prefix": "get",
+		"prefix": "Get ( RecordOpenState )",
 		"body": "Get ( RecordOpenState )",
 		"description": "RecordOpenState",
 		"scope": "source.filemaker"
 	},
 	"get(RequestCount)": {
-		"prefix": "get",
+		"prefix": "Get ( RequestCount )",
 		"body": "Get ( RequestCount )",
 		"description": "RequestCount",
 		"scope": "source.filemaker"
 	},
 	"get(RequestOmitState)": {
-		"prefix": "get",
+		"prefix": "Get ( RequestOmitState )",
 		"body": "Get ( RequestOmitState )",
 		"description": "RequestOmitState",
 		"scope": "source.filemaker"
 	},
 	"get(ScreenDepth)": {
-		"prefix": "get",
+		"prefix": "Get ( ScreenDepth )",
 		"body": "Get ( ScreenDepth )",
 		"description": "ScreenDepth",
 		"scope": "source.filemaker"
 	},
 	"get(ScreenHeight)": {
-		"prefix": "get",
+		"prefix": "Get ( ScreenHeight )",
 		"body": "Get ( ScreenHeight )",
 		"description": "ScreenHeight",
 		"scope": "source.filemaker"
 	},
 	"get(ScreenWidth)": {
-		"prefix": "get",
+		"prefix": "Get ( ScreenWidth )",
 		"body": "Get ( ScreenWidth )",
 		"description": "ScreenWidth",
 		"scope": "source.filemaker"
 	},
 	"get(ScriptName)": {
-		"prefix": "get",
+		"prefix": "Get ( ScriptName )",
 		"body": "Get ( ScriptName )",
 		"description": "ScriptName",
 		"scope": "source.filemaker"
 	},
 	"get(ScriptParameter)": {
-		"prefix": "get",
+		"prefix": "Get ( ScriptParameter )",
 		"body": "Get ( ScriptParameter )",
 		"description": "ScriptParameter",
 		"scope": "source.filemaker"
 	},
 	"get(ScriptResult)": {
-		"prefix": "get",
+		"prefix": "Get ( ScriptResult )",
 		"body": "Get ( ScriptResult )",
 		"description": "ScriptResult",
 		"scope": "source.filemaker"
 	},
 	"get(SortState)": {
-		"prefix": "get",
+		"prefix": "Get ( SortState )",
 		"body": "Get ( SortState )",
 		"description": "SortState",
 		"scope": "source.filemaker"
 	},
 	"Get(SystemAppearance)": {
-		"prefix": "get",
+		"prefix": "Get ( SystemAppearance )",
 		"body": "Get ( SystemAppearance )",
 		"description": "Returns the name of the current operating system appearance",
 		"scope": "source.filemaker"
 	},
 	"Get(SystemLocaleElements)": {
-		"prefix": "get",
+		"prefix": "Get ( SystemLocaleElements )",
 		"body": "Get ( SystemLocaleElements )",
 		"description": "Returns a JSON object with information about the client system's locale.",
 		"scope": "source.filemaker"
 	},
 	"get(StatusAreaState)": {
-		"prefix": "get",
+		"prefix": "Get ( StatusAreaState )",
 		"body": "Get ( StatusAreaState )",
 		"description": "StatusAreaState",
 		"scope": "source.filemaker"
 	},
 	"get(SystemDrive)": {
-		"prefix": "get",
+		"prefix": "Get ( SystemDrive )",
 		"body": "Get ( SystemDrive )",
 		"description": "SystemDrive",
 		"scope": "source.filemaker"
 	},
 	"get(SystemIPAddress)": {
-		"prefix": "get",
+		"prefix": "Get ( SystemIPAddress )",
 		"body": "Get ( SystemIPAddress )",
 		"description": "SystemIPAddress",
 		"scope": "source.filemaker"
 	},
 	"get(SystemLanguage)": {
-		"prefix": "get",
+		"prefix": "Get ( SystemLanguage )",
 		"body": "Get ( SystemLanguage )",
 		"description": "SystemLanguage",
 		"scope": "source.filemaker"
 	},
 	"get(SystemNICAddress)": {
-		"prefix": "get",
+		"prefix": "Get ( SystemNICAddress )",
 		"body": "Get ( SystemNICAddress )",
 		"description": "SystemNICAddress",
 		"scope": "source.filemaker"
 	},
 	"get(SystemPlatform)": {
-		"prefix": "get",
+		"prefix": "Get ( SystemPlatform )",
 		"body": "Get ( SystemPlatform )",
 		"description": "SystemPlatform",
 		"scope": "source.filemaker"
 	},
 	"get(SystemVersion)": {
-		"prefix": "get",
+		"prefix": "Get ( SystemVersion )",
 		"body": "Get ( SystemVersion )",
 		"description": "SystemVersion",
 		"scope": "source.filemaker"
 	},
 	"get(TemporaryPath)": {
-		"prefix": "get",
+		"prefix": "Get ( TemporaryPath )",
 		"body": "Get ( TemporaryPath )",
 		"description": "TemporaryPath",
 		"scope": "source.filemaker"
 	},
 	"get(TextRulerVisible)": {
-		"prefix": "get",
+		"prefix": "Get ( TextRulerVisible )",
 		"body": "Get ( TextRulerVisible )",
 		"description": "TextRulerVisible",
 		"scope": "source.filemaker"
 	},
 	"get(TotalRecordCount)": {
-		"prefix": "get",
+		"prefix": "Get ( TotalRecordCount )",
 		"body": "Get ( TotalRecordCount )",
 		"description": "TotalRecordCount",
 		"scope": "source.filemaker"
 	},
 	"get(TriggerKeystroke)": {
-		"prefix": "get",
+		"prefix": "Get ( TriggerKeystroke )",
 		"body": "Get ( TriggerKeystroke )",
 		"description": "TriggerKeystroke",
 		"scope": "source.filemaker"
 	},
 	"get(TriggerModifierKeys)": {
-		"prefix": "get",
+		"prefix": "Get ( TriggerModifierKeys )",
 		"body": "Get ( TriggerModifierKeys )",
 		"description": "TriggerModifierKeys",
 		"scope": "source.filemaker"
 	},
 	"get(UUID)": {
-		"prefix": "get",
+		"prefix": "Get ( UUID )",
 		"body": "Get ( UUID )",
 		"description": "UUID",
 		"scope": "source.filemaker"
 	},
 	"get(UseSystemFormatsState)": {
-		"prefix": "get",
+		"prefix": "Get ( UseSystemFormatsState )",
 		"body": "Get ( UseSystemFormatsState )",
 		"description": "UseSystemFormatsState",
 		"scope": "source.filemaker"
 	},
 	"get(UserCount)": {
-		"prefix": "get",
+		"prefix": "Get ( UserCount )",
 		"body": "Get ( UserCount )",
 		"description": "UserCount",
 		"scope": "source.filemaker"
 	},
 	"get(UserName)": {
-		"prefix": "get",
+		"prefix": "Get ( UserName )",
 		"body": "Get ( UserName )",
 		"description": "UserName",
 		"scope": "source.filemaker"
 	},
 	"get(WindowContentHeight)": {
-		"prefix": "get",
+		"prefix": "Get ( WindowContentHeight )",
 		"body": "Get ( WindowContentHeight )",
 		"description": "WindowContentHeight",
 		"scope": "source.filemaker"
 	},
 	"get(WindowContentWidth)": {
-		"prefix": "get",
+		"prefix": "Get ( WindowContentWidth )",
 		"body": "Get ( WindowContentWidth )",
 		"description": "WindowContentWidth",
 		"scope": "source.filemaker"
 	},
 	"get(WindowDesktopHeight)": {
-		"prefix": "get",
+		"prefix": "Get ( WindowDesktopHeight )",
 		"body": "Get ( WindowDesktopHeight )",
 		"description": "WindowDesktopHeight",
 		"scope": "source.filemaker"
 	},
 	"get(WindowDesktopWidth)": {
-		"prefix": "get",
+		"prefix": "Get ( WindowDesktopWidth )",
 		"body": "Get ( WindowDesktopWidth )",
 		"description": "WindowDesktopWidth",
 		"scope": "source.filemaker"
 	},
 	"get(WindowHeight)": {
-		"prefix": "get",
+		"prefix": "Get ( WindowHeight )",
 		"body": "Get ( WindowHeight )",
 		"description": "WindowHeight",
 		"scope": "source.filemaker"
 	},
 	"get(WindowLeft)": {
-		"prefix": "get",
+		"prefix": "Get ( WindowLeft )",
 		"body": "Get ( WindowLeft )",
 		"description": "WindowLeft",
 		"scope": "source.filemaker"
 	},
 	"get(WindowMode)": {
-		"prefix": "get",
+		"prefix": "Get ( WindowMode )",
 		"body": "Get ( WindowMode )",
 		"description": "WindowMode",
 		"scope": "source.filemaker"
 	},
 	"get(WindowName)": {
-		"prefix": "get",
+		"prefix": "Get ( WindowName )",
 		"body": "Get ( WindowName )",
 		"description": "WindowName",
 		"scope": "source.filemaker"
 	},
 	"get(WindowStyle)": {
-		"prefix": "get",
+		"prefix": "Get ( WindowStyle )",
 		"body": "Get ( WindowStyle )",
 		"description": "WindowStyle",
 		"scope": "source.filemaker"
 	},
 	"get(WindowTop)": {
-		"prefix": "get",
+		"prefix": "Get ( WindowTop )",
 		"body": "Get ( WindowTop )",
 		"description": "WindowTop",
 		"scope": "source.filemaker"
 	},
 	"get(WindowVisible)": {
-		"prefix": "get",
+		"prefix": "Get ( WindowVisible )",
 		"body": "Get ( WindowVisible )",
 		"description": "WindowVisible",
 		"scope": "source.filemaker"
 	},
 	"get(WindowWidth)": {
-		"prefix": "get",
+		"prefix": "Get ( WindowWidth )",
 		"body": "Get ( WindowWidth )",
 		"description": "WindowWidth",
 		"scope": "source.filemaker"
 	},
 	"get(WindowZoomLevel)": {
-		"prefix": "get",
+		"prefix": "Get ( WindowZoomLevel )",
 		"body": "Get ( WindowZoomLevel )",
 		"description": "WindowZoomLevel",
 		"scope": "source.filemaker"
@@ -1987,22 +2005,10 @@
 		"description": "CryptVerifySignature",
 		"scope": "source.filemaker"
 	},
-	"get(AccountType)": {
-		"prefix": "get",
-		"body": "Get ( AccountType )",
-		"description": "AccountType",
-		"scope": "source.filemaker"
-	},
 	"SetRecursion": {
 		"prefix": "setrecur",
 		"body": "SetRecursion ( ${1:expression} ; ${2:maxIteration} )",
 		"description": "SetRecursion",
-		"scope": "source.filemaker"
-	},
-	"get(OpenDataFileInfo)": {
-		"prefix": "get",
-		"body": "Get ( OpenDataFileInfo )",
-		"description": "OpenDataFileInfo",
 		"scope": "source.filemaker"
 	}
 }
