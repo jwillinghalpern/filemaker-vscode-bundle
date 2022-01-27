@@ -2,7 +2,7 @@
     "name": "filemaker-vscode",
     "displayName": "FileMaker VSCode",
     "description": "FileMaker syntax highlighting and snippets for Visual Studio Code",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "publisher": "jwillinghalpern",
     "repository": {
         "type": "git",
