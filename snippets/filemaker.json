@@ -684,6 +684,12 @@
 		"description": "LayoutObjectNames",
 		"scope": "source.filemaker"
 	},
+	"LayoutObjectUUID": {
+		"prefix": "layoutobjectuuid",
+		"body": "LayoutObjectUUID",
+		"description": "Returns the Universally Unique Identifier (UUID) of the layout object in which the calculation is defined.",
+		"scope": "source.filemaker"
+	},
 	"left": {
 		"prefix": "left",
 		"body": "Left ( ${1:text} ; ${2:numberOfCharacters} )$0",
@@ -1255,10 +1261,28 @@
 		"description": "",
 		"scope": "source.filemaker"
 	},
+	"GetAddonInfo": {
+		"prefix": "GetAddonInfo",
+		"body": "GetAddonInfo ( ${1:addonID} )$0",
+		"description": "Returns a JSON object with information about an add-on.",
+		"scope": "source.filemaker"
+	},
 	"GetAVPlayerAttribute": {
 		"prefix": "GetAVPlayerAttribute",
 		"body": "GetAVPlayerAttribute ( ${1:attributeName} )",
 		"description": "",
+		"scope": "source.filemaker"
+	},
+	"GetLayoutObjectOwnerInfo": {
+		"prefix": "getlayoutobjectownerinfo",
+		"body": "GetLayoutObjectOwnerInfo ( ${1:objectID} )$0",
+		"description": "Returns a JSON object with ownership information about a layout object.",
+		"scope": "source.filemaker"
+	},
+	"GetModelAttributes": {
+		"prefix": "getmodelattributes",
+		"body": "GetModelAttributes ( ${1:modelName} )$0",
+		"description": "Returns metadata in JSON format about a named model that's currently loaded.",
 		"scope": "source.filemaker"
 	},
 	"GetSensor": {
