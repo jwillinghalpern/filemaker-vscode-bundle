@@ -916,7 +916,7 @@
 	},
 	"TextSizeRemove": {
 		"prefix": "TextSizeRemove",
-		"body": "TextSizeRemove ( ${1:text}${2 ; ${3:fontSize}} )$0",
+		"body": "TextSizeRemove ( ${1:text}${2: ; ${3:fontSize}} )$0",
 		"description": "TextSizeRemove",
 		"scope": "source.filemaker"
 	},
