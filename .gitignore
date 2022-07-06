@@ -1,1 +1,7 @@
 how-to-publish.md
+
+out
+dist
+node_modules
+.vscode-test/
+*.vsix

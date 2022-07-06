@@ -1,48 +1,88 @@
 {
-    "name": "filemaker-vscode",
-    "displayName": "FileMaker VSCode",
-    "description": "FileMaker syntax highlighting and snippets for Visual Studio Code",
-    "version": "1.7.0",
-    "publisher": "jwillinghalpern",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/jwillinghalpern/filemaker-vscode-bundle"
-    },
-    "icon": "resources/filemaker-vscode-128.png",
-    "engines": {
-        "vscode": "^1.30.0"
-    },
-    "categories": [
-        "Programming Languages"
-    ],
-    "contributes": {
-        "languages": [
-            {
-                "id": "filemaker",
-                "aliases": [
-                    "FileMaker",
-                    "Filemaker",
-                    "filemaker"
-                ],
-                "extensions": [
-                    ".fmfn",
-                    ".calc"
-                ],
-                "configuration": "./language-configuration.json"
-            }
-        ],
-        "grammars": [
-            {
-                "language": "filemaker",
-                "scopeName": "source.filemaker",
-                "path": "./syntaxes/FileMaker.tmLanguage"
-            }
-        ],
-        "snippets": [
-            {
-                "language": "filemaker",
-                "path": "./snippets/filemaker.json"
-            }
-        ]
-    }
+	"name": "filemaker-vscode",
+	"displayName": "FileMaker VSCode",
+	"description": "FileMaker syntax, snippets, and functions",
+	"version": "1.7.0",
+	"publisher": "jwillinghalpern",
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jwillinghalpern/filemaker-vscode-bundle"
+	},
+	"icon": "resources/filemaker-vscode-128.png",
+	"engines": {
+		"vscode": "^1.68.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"activationEvents": [
+		"onCommand:functions.jsonToJsonSetElement"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "functions.jsonToJsonSetElement",
+				"title": "FileMaker: JSON to JSONSetElement()"
+			}
+		],
+		"languages": [
+			{
+				"id": "filemaker",
+				"aliases": [
+					"FileMaker",
+					"Filemaker",
+					"filemaker"
+				],
+				"extensions": [
+					".fmfn",
+					".calc"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "filemaker",
+				"scopeName": "source.filemaker",
+				"path": "./syntaxes/FileMaker.tmLanguage"
+			}
+		],
+		"snippets": [
+			{
+				"language": "filemaker",
+				"path": "./snippets/filemaker.json"
+			}
+		]
+	},
+	"dependencies": {
+		"fm-json-to-jsonsetelement": "github:jwillinghalpern/fm-json-to-jsonsetelement"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.2.0",
+		"@types/mocha": "^9.1.1",
+		"@types/node": "16.x",
+		"@types/vscode": "^1.68.0",
+		"@typescript-eslint/eslint-plugin": "^5.30.0",
+		"@typescript-eslint/parser": "^5.30.0",
+		"@vscode/test-electron": "^2.1.5",
+		"eslint": "^8.18.0",
+		"glob": "^8.0.3",
+		"mocha": "^10.0.0",
+		"typescript": "^4.7.4"
+	},
+	"__metadata": {
+		"id": "4fcfaefb-c1c8-49ea-8ef1-27ae57a23ed6",
+		"publisherDisplayName": "Joshua Willing",
+		"publisherId": "bfe42675-c248-494a-b8c5-af81b25e9c64",
+		"isPreReleaseVersion": false
+	}
 }

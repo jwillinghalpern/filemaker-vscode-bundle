@@ -1,0 +1,534 @@
+[
+  [
+    "Case [inline]",
+    "Case"
+  ],
+  [
+    "Case [stacked]",
+    "Case"
+  ],
+  [
+    "Let [stacked]",
+    "Let"
+  ],
+  [
+    "Let [inline]",
+    "Let"
+  ],
+  [
+    "ExecuteSQL [inline]",
+    "ExecuteSQL"
+  ],
+  [
+    "ExecuteSQL [stacked]",
+    "ExecuteSQL"
+  ],
+  [
+    "Get(AccountExtendedPrivileges)",
+    "Get ( AccountExtendedPrivileges )"
+  ],
+  [
+    "Get(AccountGroupName)",
+    "Get ( AccountGroupName )"
+  ],
+  [
+    "Get(AccountName)",
+    "Get ( AccountName )"
+  ],
+  [
+    "Get(AccountPrivilegeSetName)",
+    "Get ( AccountPrivilegeSetName )"
+  ],
+  [
+    "Get(AccountType)",
+    "Get ( AccountType )"
+  ],
+  [
+    "Get(ActiveFieldContents)",
+    "Get ( ActiveFieldContents )"
+  ],
+  [
+    "Get(ActiveFieldName)",
+    "Get ( ActiveFieldName )"
+  ],
+  [
+    "Get(ActiveFieldTableName)",
+    "Get ( ActiveFieldTableName )"
+  ],
+  [
+    "Get(ActiveLayoutObjectName)",
+    "Get ( ActiveLayoutObjectName )"
+  ],
+  [
+    "Get(ActiveModifierKeys)",
+    "Get ( ActiveModifierKeys )"
+  ],
+  [
+    "Get(ActivePortalRowNumber)",
+    "Get ( ActivePortalRowNumber )"
+  ],
+  [
+    "Get(ActiveRecordNumber)",
+    "Get ( ActiveRecordNumber )"
+  ],
+  [
+    "Get(ActiveRepetitionNumber)",
+    "Get ( ActiveRepetitionNumber )"
+  ],
+  [
+    "Get(ActiveSelectionSize)",
+    "Get ( ActiveSelectionSize )"
+  ],
+  [
+    "Get(ActiveSelectionStart)",
+    "Get ( ActiveSelectionStart )"
+  ],
+  [
+    "Get(AllowAbortState)",
+    "Get ( AllowAbortState )"
+  ],
+  [
+    "Get(AllowFormattingBarState)",
+    "Get ( AllowFormattingBarState )"
+  ],
+  [
+    "Get(ApplicationArchitecture)",
+    "Get ( ApplicationArchitecture )"
+  ],
+  [
+    "Get(ApplicationLanguage)",
+    "Get ( ApplicationLanguage )"
+  ],
+  [
+    "Get(ApplicationVersion)",
+    "Get ( ApplicationVersion )"
+  ],
+  [
+    "Get(CalculationRepetitionNumber)",
+    "Get ( CalculationRepetitionNumber )"
+  ],
+  [
+    "Get(ConnectionAttributes)",
+    "Get ( ConnectionAttributes )"
+  ],
+  [
+    "Get(ConnectionState)",
+    "Get ( ConnectionState )"
+  ],
+  [
+    "Get(CurrentDate)",
+    "Get ( CurrentDate )"
+  ],
+  [
+    "Get(CurrentExtendedPrivileges)",
+    "Get ( CurrentExtendedPrivileges )"
+  ],
+  [
+    "Get(CurrentHostTimestamp)",
+    "Get ( CurrentHostTimestamp )"
+  ],
+  [
+    "Get(CurrentPrivilegeSetName)",
+    "Get ( CurrentPrivilegeSetName )"
+  ],
+  [
+    "Get(CurrentTime)",
+    "Get ( CurrentTime )"
+  ],
+  [
+    "Get(CurrentTimestamp)",
+    "Get ( CurrentTimestamp )"
+  ],
+  [
+    "Get(CurrentTimeUTCMilliseconds)",
+    "Get ( CurrentTimeUTCMilliseconds )"
+  ],
+  [
+    "Get(CustomMenuSetName)",
+    "Get ( CustomMenuSetName )"
+  ],
+  [
+    "Get(DesktopPath)",
+    "Get ( DesktopPath )"
+  ],
+  [
+    "Get(Device)",
+    "Get ( Device )"
+  ],
+  [
+    "Get(DocumentsPath)",
+    "Get ( DocumentsPath )"
+  ],
+  [
+    "Get(DocumentsPathListing)",
+    "Get ( DocumentsPathListing )"
+  ],
+  [
+    "Get(EncryptionState)",
+    "Get ( EncryptionState )"
+  ],
+  [
+    "Get(ErrorCaptureState)",
+    "Get ( ErrorCaptureState )"
+  ],
+  [
+    "Get(FileLocaleElements)",
+    "Get ( FileLocaleElements )"
+  ],
+  [
+    "Get(FileMakerPath)",
+    "Get ( FileMakerPath )"
+  ],
+  [
+    "Get(FileName)",
+    "Get ( FileName )"
+  ],
+  [
+    "Get(FilePath)",
+    "Get ( FilePath )"
+  ],
+  [
+    "Get(FileSize)",
+    "Get ( FileSize )"
+  ],
+  [
+    "Get(FoundCount)",
+    "Get ( FoundCount )"
+  ],
+  [
+    "Get(HighContrastState)",
+    "Get ( HighContrastState )"
+  ],
+  [
+    "Get(HostApplicationVersion)",
+    "Get ( HostApplicationVersion )"
+  ],
+  [
+    "Get(HostIPAddress)",
+    "Get ( HostIPAddress )"
+  ],
+  [
+    "Get(HostName)",
+    "Get ( HostName )"
+  ],
+  [
+    "Get(InstalledFMPlugins)",
+    "Get ( InstalledFMPlugins )"
+  ],
+  [
+    "Get(InstalledFMPluginsAsJSON)",
+    "Get ( InstalledFMPluginsAsJSON )"
+  ],
+  [
+    "Get(LastError)",
+    "Get ( LastError )"
+  ],
+  [
+    "Get(LastExternalErrorDetail)",
+    "Get ( LastExternalErrorDetail )"
+  ],
+  [
+    "Get(LastMessageChoice)",
+    "Get ( LastMessageChoice )"
+  ],
+  [
+    "Get(LayoutAccess)",
+    "Get ( LayoutAccess )"
+  ],
+  [
+    "Get(LayoutCount)",
+    "Get ( LayoutCount )"
+  ],
+  [
+    "Get(LayoutName)",
+    "Get ( LayoutName )"
+  ],
+  [
+    "Get(LayoutNumber)",
+    "Get ( LayoutNumber )"
+  ],
+  [
+    "Get(LayoutTableName)",
+    "Get ( LayoutTableName )"
+  ],
+  [
+    "Get(LayoutViewState)",
+    "Get ( LayoutViewState )"
+  ],
+  [
+    "Get(MenubarState)",
+    "Get ( MenubarState )"
+  ],
+  [
+    "Get(ModifiedFields)",
+    "Get ( ModifiedFields )"
+  ],
+  [
+    "Get(MultiUserState)",
+    "Get ( MultiUserState )"
+  ],
+  [
+    "Get(NetworkProtocol)",
+    "Get ( NetworkProtocol )"
+  ],
+  [
+    "Get(NetworkType)",
+    "Get ( NetworkType )"
+  ],
+  [
+    "Get(OpenDataFileInfo)",
+    "Get ( OpenDataFileInfo )"
+  ],
+  [
+    "Get(PageCount)",
+    "Get ( PageCount )"
+  ],
+  [
+    "Get(PageNumber)",
+    "Get ( PageNumber )"
+  ],
+  [
+    "Get(PersistentID)",
+    "Get ( PersistentID )"
+  ],
+  [
+    "Get(PreferencesPath)",
+    "Get ( PreferencesPath )"
+  ],
+  [
+    "Get(PrinterName)",
+    "Get ( PrinterName )"
+  ],
+  [
+    "Get(QuickFindText)",
+    "Get ( QuickFindText )"
+  ],
+  [
+    "Get(RecordAccess)",
+    "Get ( RecordAccess )"
+  ],
+  [
+    "Get(RecordID)",
+    "Get ( RecordID )"
+  ],
+  [
+    "Get(RecordModificationCount)",
+    "Get ( RecordModificationCount )"
+  ],
+  [
+    "Get(RecordNumber)",
+    "Get ( RecordNumber )"
+  ],
+  [
+    "Get(RecordOpenCount)",
+    "Get ( RecordOpenCount )"
+  ],
+  [
+    "Get(RecordOpenState)",
+    "Get ( RecordOpenState )"
+  ],
+  [
+    "Get(RegionMonitorEvents)",
+    "Get ( RegionMonitorEvents )"
+  ],
+  [
+    "Get(RequestCount)",
+    "Get ( RequestCount )"
+  ],
+  [
+    "Get(RequestOmitState)",
+    "Get ( RequestOmitState )"
+  ],
+  [
+    "Get(ScreenDepth)",
+    "Get ( ScreenDepth )"
+  ],
+  [
+    "Get(ScreenHeight)",
+    "Get ( ScreenHeight )"
+  ],
+  [
+    "Get(ScreenScaleFactor)",
+    "Get ( ScreenScaleFactor )"
+  ],
+  [
+    "Get(ScreenWidth)",
+    "Get ( ScreenWidth )"
+  ],
+  [
+    "Get(ScriptAnimationState)",
+    "Get ( ScriptAnimationState )"
+  ],
+  [
+    "Get(ScriptName)",
+    "Get ( ScriptName )"
+  ],
+  [
+    "Get(ScriptParameter)",
+    "Get ( ScriptParameter )"
+  ],
+  [
+    "Get(ScriptResult)",
+    "Get ( ScriptResult )"
+  ],
+  [
+    "Get(SessionIdentifier)",
+    "Get ( SessionIdentifier )"
+  ],
+  [
+    "Get(SortState)",
+    "Get ( SortState )"
+  ],
+  [
+    "Get(StatusAreaState)",
+    "Get ( StatusAreaState )"
+  ],
+  [
+    "Get(SystemAppearance)",
+    "Get ( SystemAppearance )"
+  ],
+  [
+    "Get(SystemDrive)",
+    "Get ( SystemDrive )"
+  ],
+  [
+    "Get(SystemIPAddress)",
+    "Get ( SystemIPAddress )"
+  ],
+  [
+    "Get(SystemLanguage)",
+    "Get ( SystemLanguage )"
+  ],
+  [
+    "Get(SystemLocaleElements)",
+    "Get ( SystemLocaleElements )"
+  ],
+  [
+    "Get(SystemNICAddress)",
+    "Get ( SystemNICAddress )"
+  ],
+  [
+    "Get(SystemPlatform)",
+    "Get ( SystemPlatform )"
+  ],
+  [
+    "Get(SystemVersion)",
+    "Get ( SystemVersion )"
+  ],
+  [
+    "Get(TemporaryPath)",
+    "Get ( TemporaryPath )"
+  ],
+  [
+    "Get(TextRulerVisible)",
+    "Get ( TextRulerVisible )"
+  ],
+  [
+    "Get(TotalRecordCount)",
+    "Get ( TotalRecordCount )"
+  ],
+  [
+    "Get(TouchKeyboardState)",
+    "Get ( TouchKeyboardState )"
+  ],
+  [
+    "Get(TriggerCurrentPanel)",
+    "Get ( TriggerCurrentPanel )"
+  ],
+  [
+    "Get(TriggerExternalEvent)",
+    "Get ( TriggerExternalEvent )"
+  ],
+  [
+    "Get(TriggerGestureInfo)",
+    "Get ( TriggerGestureInfo )"
+  ],
+  [
+    "Get(TriggerKeystroke)",
+    "Get ( TriggerKeystroke )"
+  ],
+  [
+    "Get(TriggerModifierKeys)",
+    "Get ( TriggerModifierKeys )"
+  ],
+  [
+    "Get(TriggerTargetPanel)",
+    "Get ( TriggerTargetPanel )"
+  ],
+  [
+    "Get(UserCount)",
+    "Get ( UserCount )"
+  ],
+  [
+    "Get(UserName)",
+    "Get ( UserName )"
+  ],
+  [
+    "Get(UseSystemFormatsState)",
+    "Get ( UseSystemFormatsState )"
+  ],
+  [
+    "Get(UUID)",
+    "Get ( UUID )"
+  ],
+  [
+    "Get(UUIDNumber)",
+    "Get ( UUIDNumber )"
+  ],
+  [
+    "Get(WindowContentHeight)",
+    "Get ( WindowContentHeight )"
+  ],
+  [
+    "Get(WindowContentWidth)",
+    "Get ( WindowContentWidth )"
+  ],
+  [
+    "Get(WindowDesktopHeight)",
+    "Get ( WindowDesktopHeight )"
+  ],
+  [
+    "Get(WindowDesktopWidth)",
+    "Get ( WindowDesktopWidth )"
+  ],
+  [
+    "Get(WindowHeight)",
+    "Get ( WindowHeight )"
+  ],
+  [
+    "Get(WindowLeft)",
+    "Get ( WindowLeft )"
+  ],
+  [
+    "Get(WindowMode)",
+    "Get ( WindowMode )"
+  ],
+  [
+    "Get(WindowName)",
+    "Get ( WindowName )"
+  ],
+  [
+    "Get(WindowOrientation)",
+    "Get ( WindowOrientation )"
+  ],
+  [
+    "Get(WindowStyle)",
+    "Get ( WindowStyle )"
+  ],
+  [
+    "Get(WindowTop)",
+    "Get ( WindowTop )"
+  ],
+  [
+    "Get(WindowVisible)",
+    "Get ( WindowVisible )"
+  ],
+  [
+    "Get(WindowWidth)",
+    "Get ( WindowWidth )"
+  ],
+  [
+    "Get(WindowZoomLevel)",
+    "Get ( WindowZoomLevel )"
+  ]
+]
