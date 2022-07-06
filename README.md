@@ -11,13 +11,29 @@ Snippets, autocompletion, and syntax highlighting for FileMaker calculations.
 
 The best way to install is via the VSCode extension marketplace. Search `Filemaker VSCode` in the extensions tab within VSCode and click "install".
 
-But if you want to install manually from this repo, see [Alternative Installation](#alternative-installation).
+[Or install from the marketplace site here](https://marketplace.visualstudio.com/items?itemName=jwillinghalpern.filemaker-vscode)
+
+## Usage
+
+### Syntax Highlighting
+
+![syntax-highlighting](./readme-highlighting.png)
+
+### Autocomplete / Snippets
+
+![autocomplete](./readme-autocomplete.png)
+
+### JSON to JSONSetElement() expression
+
+![json-to-jsonsetelement](./readme-json-to-fm.gif)
 
 ## Attribution
 
 Original syntax and snippets were ported from [Donovan Chandler's textmate bundle](https://github.com/DonovanChan/Filemaker.tmbundle), which was itself forked from [Matt Petrowsky's repo](https://github.com/petrowsky/filemaker.tmbundle).
 
 [Carson Lind](https://eagleoptimizations.com/) created the icon artwork.
+
+---
 
 ## Contributing
 
@@ -44,27 +60,9 @@ Original syntax and snippets were ported from [Donovan Chandler's textmate bundl
 ### Submit changes
 
 1. When ready, commit your changes and push them to your own fork on github.
-    1. `git add .`
-    2. `git commit -m "message describing your change"`
-    3. `git push`
+   1. `git add .`
+   2. `git commit -m "message describing your change"`
+   3. `git push`
 2. Submit a pull request to my repo so I can try them out and pull them in and publish!
 
 ## Misc
-
-### Notes
-
-- This extension does _not_ validate FileMaker calculations. I've learned recently that FileMaker has the most insane parsing rules ever.
-- Some Windows users have reported having to reboot their computer before the extension works, but only do this if needed.
-
-### Alternative Installation
-
-(not recommended)
-
-1. Copy this whole unzipped folder (filemaker-vscode-bundle-master) into the `<user home folder>/.vscode/extensions` folder.
-    1. An easy way to find this extensions folder is by opening the  Command Palette (⇧⌘P) in VSCode, and searching for "Extensions: Open Extensions Folder".
-    2. If on Mac and you cannot see the `.vscode` folder in Finder, press `Command + Shift + Period` to show hidden folders. You can press this again to hide.
-2. Restart VSCode or run `Developer: Reload Window` from the Command Palette.
-3. Create a new document in VSCode and select `FileMaker` from the language selector at the bottom right.
-    1. Saving your file with a `.fmfn`, or `.calc` extension will automatically change the language to FileMaker.
-
-For more info, read vsc-extension-quickstart.md
