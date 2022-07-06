@@ -64,5 +64,3 @@ Original syntax and snippets were ported from [Donovan Chandler's textmate bundl
    2. `git commit -m "message describing your change"`
    3. `git push`
 2. Submit a pull request to my repo so I can try them out and pull them in and publish!
-
-## Misc
