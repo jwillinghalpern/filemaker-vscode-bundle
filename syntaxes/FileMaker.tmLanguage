@@ -105,7 +105,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(JSONArray|JSONBoolean|JSONNull|JSONNumber|JSONObject|JSONRaw|JSONString)\b</string>
+			<string>(?i)\b(JSONArray|JSONBoolean|JSONNull|JSONNumber|JSONObject|JSONRaw|JSONString)\b</string>
 			<key>name</key>
 			<string>constant.language.filemaker</string>
 		</dict>
