@@ -2,7 +2,7 @@
 	"name": "filemaker-vscode",
 	"displayName": "FileMaker VSCode",
 	"description": "FileMaker syntax, snippets, and functions",
-	"version": "1.8.0",
+	"version": "1.9.0",
 	"publisher": "jwillinghalpern",
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
