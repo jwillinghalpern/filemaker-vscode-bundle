@@ -1999,5 +1999,239 @@
 		"body": "SetRecursion ( ${1:expression} ; ${2:maxIteration} )",
 		"description": "SetRecursion",
 		"scope": "source.filemaker"
+	},
+	"AddEmbeddings": {
+		"prefix": "AddEmbeddings",
+		"body": "AddEmbeddings ( ${1:v1} ; ${2:v2} )$0",
+		"description": "AddEmbeddings",
+		"scope": "source.filemaker"
+	},
+	"BaseTableComment": {
+		"prefix": "BaseTableComment",
+		"body": "BaseTableComment ( ${1:Get ( FileName )} ; ${2:baseTableName} )$0",
+		"description": "BaseTableComment",
+		"scope": "source.filemaker"
+	},
+	"BaseTableIDs": {
+		"prefix": "BaseTableIDs",
+		"body": "BaseTableIDs ( ${1:Get ( FileName )} )$0",
+		"description": "BaseTableIDs",
+		"scope": "source.filemaker"
+	},
+	"BaseTableNames": {
+		"prefix": "BaseTableNames",
+		"body": "BaseTableNames ( ${1:Get ( FileName )} )$0",
+		"description": "BaseTableNames",
+		"scope": "source.filemaker"
+	},
+	"CosineSimilarity": {
+		"prefix": "CosineSimilarity",
+		"body": "CosineSimilarity ( ${1:v1} ; ${2:v2} )$0",
+		"description": "CosineSimilarity",
+		"scope": "source.filemaker"
+	},
+	"ExecuteSQLe": {
+		"prefix": "ExecuteSQLe",
+		"body": "ExecuteSQLe ( ${1:sqlQuery} ; ${2:fieldSeparator} ; ${3:rowSeparator}${4: ; arguments...} )$0",
+		"description": "ExecuteSQLe",
+		"scope": "source.filemaker"
+	},
+	"FieldAnnotation": {
+		"prefix": "FieldAnnotation",
+		"body": "FieldAnnotation ( ${1:Get ( FileName )} ; ${2:fieldName} )$0",
+		"description": "FieldAnnotation",
+		"scope": "source.filemaker"
+	},
+	"FieldDisplayNames": {
+		"prefix": "FieldDisplayNames",
+		"body": "FieldDisplayNames ( ${1:Get ( FileName )} ; ${2:fieldName} )$0",
+		"description": "FieldDisplayNames",
+		"scope": "source.filemaker"
+	},
+	"GetBaseTableName": {
+		"prefix": "GetBaseTableName",
+		"body": "GetBaseTableName ( ${1:field} )$0",
+		"description": "GetBaseTableName",
+		"scope": "source.filemaker"
+	},
+	"GetEmbedding": {
+		"prefix": "GetEmbedding",
+		"body": "GetEmbedding ( ${1:account} ; ${2:model} ; ${3:input} )$0",
+		"description": "GetEmbedding",
+		"scope": "source.filemaker"
+	},
+	"GetEmbeddingAsFile": {
+		"prefix": "GetEmbeddingAsFile",
+		"body": "GetEmbeddingAsFile ( ${1:text}${2: ; ${3:fileNameWithExtension}} )$0",
+		"description": "GetEmbeddingAsFile",
+		"scope": "source.filemaker"
+	},
+	"GetEmbeddingAsText": {
+		"prefix": "GetEmbeddingAsText",
+		"body": "GetEmbeddingAsText ( ${1:data} )$0",
+		"description": "GetEmbeddingAsText",
+		"scope": "source.filemaker"
+	},
+	"GetFieldsOnLayout": {
+		"prefix": "GetFieldsOnLayout",
+		"body": "GetFieldsOnLayout ( ${1:layoutName} )$0",
+		"description": "GetFieldsOnLayout",
+		"scope": "source.filemaker"
+	},
+	"GetLiveTextAsJSON": {
+		"prefix": "GetLiveTextAsJSON",
+		"body": "GetLiveTextAsJSON ( ${1:container} ; ${2:language} )$0",
+		"description": "GetLiveTextAsJSON",
+		"scope": "source.filemaker"
+	},
+	"GetPersistentData": {
+		"prefix": "GetPersistentData",
+		"body": "GetPersistentData ( ${1:name} ; ${2:instanceID} )$0",
+		"description": "GetPersistentData",
+		"scope": "source.filemaker"
+	},
+	"GetRAGSpaceInfo": {
+		"prefix": "GetRAGSpaceInfo",
+		"body": "GetRAGSpaceInfo ( ${1:ragAccountName}${2: ; ${3:spaceID}} )$0",
+		"description": "GetRAGSpaceInfo",
+		"scope": "source.filemaker"
+	},
+	"GetRecordIDsFromFoundSet": {
+		"prefix": "GetRecordIDsFromFoundSet",
+		"body": "GetRecordIDsFromFoundSet ( ${1:type}${2: ; ${3:tableOccurrenceOrPortal}} )$0",
+		"description": "GetRecordIDsFromFoundSet",
+		"scope": "source.filemaker"
+	},
+	"GetTableDDL": {
+		"prefix": "GetTableDDL",
+		"body": "GetTableDDL ( ${1:tableOccurrenceNames} ; ${2:ignoreError} )$0",
+		"description": "GetTableDDL",
+		"scope": "source.filemaker"
+	},
+	"GetTextFromPDF": {
+		"prefix": "GetTextFromPDF",
+		"body": "GetTextFromPDF ( ${1:container} )$0",
+		"description": "GetTextFromPDF",
+		"scope": "source.filemaker"
+	},
+	"GetTokenCount": {
+		"prefix": "GetTokenCount",
+		"body": "GetTokenCount ( ${1:text} )$0",
+		"description": "GetTokenCount",
+		"scope": "source.filemaker"
+	},
+	"JSONMakeArray": {
+		"prefix": "JSONMakeArray",
+		"body": "JSONMakeArray ( ${1:listOfValues} ; ${2:separator} ; ${3:type} )$0",
+		"description": "JSONMakeArray",
+		"scope": "source.filemaker"
+	},
+	"JSONParse": {
+		"prefix": "JSONParse",
+		"body": "JSONParse ( ${1:json} )$0",
+		"description": "JSONParse",
+		"scope": "source.filemaker"
+	},
+	"JSONParsedState": {
+		"prefix": "JSONParsedState",
+		"body": "JSONParsedState ( ${1:json} )$0",
+		"description": "JSONParsedState",
+		"scope": "source.filemaker"
+	},
+	"ListPersistentDataIDs": {
+		"prefix": "ListPersistentDataIDs",
+		"body": "ListPersistentDataIDs ( ${1:name} )$0",
+		"description": "ListPersistentDataIDs",
+		"scope": "source.filemaker"
+	},
+	"NormalizeEmbedding": {
+		"prefix": "NormalizeEmbedding",
+		"body": "NormalizeEmbedding ( ${1:data}${2: ; ${3:dimension}} )$0",
+		"description": "NormalizeEmbedding",
+		"scope": "source.filemaker"
+	},
+	"PredictFromModel": {
+		"prefix": "PredictFromModel",
+		"body": "PredictFromModel ( ${1:modelName} ; ${2:v1} )$0",
+		"description": "PredictFromModel",
+		"scope": "source.filemaker"
+	},
+	"SubtractEmbeddings": {
+		"prefix": "SubtractEmbeddings",
+		"body": "SubtractEmbeddings ( ${1:v1} ; ${2:v2} )$0",
+		"description": "SubtractEmbeddings",
+		"scope": "source.filemaker"
+	},
+	"Get(AccountPasswordDaysRemaining)": {
+		"prefix": "Get ( AccountPasswordDaysRemaining )",
+		"body": "Get ( AccountPasswordDaysRemaining )",
+		"description": "AccountPasswordDaysRemaining",
+		"scope": "source.filemaker"
+	},
+	"Get(CacheFileName)": {
+		"prefix": "Get ( CacheFileName )",
+		"body": "Get ( CacheFileName )",
+		"description": "CacheFileName",
+		"scope": "source.filemaker"
+	},
+	"Get(CacheFilePath)": {
+		"prefix": "Get ( CacheFilePath )",
+		"body": "Get ( CacheFilePath )",
+		"description": "CacheFilePath",
+		"scope": "source.filemaker"
+	},
+	"Get(CurrentTimeUTCMicroseconds)": {
+		"prefix": "Get ( CurrentTimeUTCMicroseconds )",
+		"body": "Get ( CurrentTimeUTCMicroseconds )",
+		"description": "CurrentTimeUTCMicroseconds",
+		"scope": "source.filemaker"
+	},
+	"Get(GuidedAccessState)": {
+		"prefix": "Get ( GuidedAccessState )",
+		"body": "Get ( GuidedAccessState )",
+		"description": "GuidedAccessState",
+		"scope": "source.filemaker"
+	},
+	"Get(LastErrorDetail)": {
+		"prefix": "Get ( LastErrorDetail )",
+		"body": "Get ( LastErrorDetail )",
+		"description": "LastErrorDetail",
+		"scope": "source.filemaker"
+	},
+	"Get(LastErrorLocation)": {
+		"prefix": "Get ( LastErrorLocation )",
+		"body": "Get ( LastErrorLocation )",
+		"description": "LastErrorLocation",
+		"scope": "source.filemaker"
+	},
+	"Get(LastStepTokensUsed)": {
+		"prefix": "Get ( LastStepTokensUsed )",
+		"body": "Get ( LastStepTokensUsed )",
+		"description": "LastStepTokensUsed",
+		"scope": "source.filemaker"
+	},
+	"Get(RevertTransactionOnErrorState)": {
+		"prefix": "Get ( RevertTransactionOnErrorState )",
+		"body": "Get ( RevertTransactionOnErrorState )",
+		"description": "RevertTransactionOnErrorState",
+		"scope": "source.filemaker"
+	},
+	"Get(SystemStorageAvailable)": {
+		"prefix": "Get ( SystemStorageAvailable )",
+		"body": "Get ( SystemStorageAvailable )",
+		"description": "SystemStorageAvailable",
+		"scope": "source.filemaker"
+	},
+	"Get(TransactionOpenState)": {
+		"prefix": "Get ( TransactionOpenState )",
+		"body": "Get ( TransactionOpenState )",
+		"description": "TransactionOpenState",
+		"scope": "source.filemaker"
+	},
+	"Get(WindowUUID)": {
+		"prefix": "Get ( WindowUUID )",
+		"body": "Get ( WindowUUID )",
+		"description": "WindowUUID",
+		"scope": "source.filemaker"
 	}
 }

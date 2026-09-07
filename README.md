@@ -33,6 +33,10 @@ Original syntax and snippets were ported from [Donovan Chandler's textmate bundl
 
 [Carson Lind](https://eagleoptimizations.com/) created the icon artwork.
 
+## Documentation
+
+Recent additions come from the new textual fm documentation: <https://help.claris.com/markdown/en/llms-full.txt>
+
 ---
 
 ## Contributing
