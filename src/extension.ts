@@ -1,5 +1,5 @@
 import * as vscode from 'vscode';
-import { jsonToJsonSetElement as jsonToFm } from 'fm-json-to-jsonsetelement';
+import { jsonToJsonSetElement as jsonToFm } from './jsonToJsonSetElement';
 
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed

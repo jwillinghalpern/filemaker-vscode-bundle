@@ -4,6 +4,7 @@
 	"description": "FileMaker syntax, snippets, and functions",
 	"version": "1.9.0",
 	"publisher": "jwillinghalpern",
+	"license": "MIT",
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
@@ -63,9 +64,6 @@
 			}
 		]
 	},
-	"dependencies": {
-		"fm-json-to-jsonsetelement": "github:jwillinghalpern/fm-json-to-jsonsetelement"
-	},
 	"devDependencies": {
 		"@types/glob": "^7.2.0",
 		"@types/mocha": "^9.1.1",
@@ -78,11 +76,5 @@
 		"glob": "^8.0.3",
 		"mocha": "^10.0.0",
 		"typescript": "^4.7.4"
-	},
-	"__metadata": {
-		"id": "4fcfaefb-c1c8-49ea-8ef1-27ae57a23ed6",
-		"publisherDisplayName": "Joshua Willing",
-		"publisherId": "bfe42675-c248-494a-b8c5-af81b25e9c64",
-		"isPreReleaseVersion": false
 	}
 }
