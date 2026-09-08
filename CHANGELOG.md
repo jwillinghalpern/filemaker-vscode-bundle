@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.10.1] - 2026-09-08
+
+- Maintenance release. No changes to syntax highlighting, snippets, or commands; this is the first release published end-to-end by the automated pipeline.
+
 ## [1.10.0] - 2026-09-07
 
 - Add missing functions and Get parameters from the current Claris functions reference, in both syntax highlighting and snippets:
