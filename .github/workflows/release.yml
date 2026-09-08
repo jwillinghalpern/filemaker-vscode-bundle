@@ -1,0 +1,127 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Build and package only — do not publish or create a release"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write # needed to create the GitHub Release
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  VSCE_VERSION: "3"
+  OVSX_VERSION: "0.10"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # Guard runs FIRST — before setup-node and npm ci — so a mistagged push fails
+      # in seconds and touches nothing.
+      - name: Verify tag matches package.json version
+        id: meta
+        run: |
+          set -euo pipefail
+          VERSION="$(node -p "require('./package.json').version")"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "vsix=filemaker-vscode-${VERSION}.vsix" >> "$GITHUB_OUTPUT"
+
+          if [ "$GITHUB_REF_TYPE" != "tag" ]; then
+            echo "Not a tag build (package.json version ${VERSION}); skipping tag check."
+            exit 0
+          fi
+
+          echo "tag=${GITHUB_REF_NAME}  package.json=v${VERSION}"
+          if [ "${GITHUB_REF_NAME}" != "v${VERSION}" ]; then
+            echo "::error::Tag ${GITHUB_REF_NAME} does not match package.json version v${VERSION}."
+            echo "::error::Remove the bad tag with: git push origin :refs/tags/${GITHUB_REF_NAME} && git tag -d ${GITHUB_REF_NAME}"
+            exit 1
+          fi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - run: npm ci
+
+      - run: npm run compile
+
+      - run: npm run lint
+
+      # Build the artifact ONCE, then feed this same file to vsce, ovsx and the GitHub
+      # Release so all three get identical bits. Never let `vsce publish` re-package.
+      - name: Package extension
+        run: npx --yes "@vscode/vsce@${VSCE_VERSION}" package --out "${{ steps.meta.outputs.vsix }}"
+
+      # Uploaded BEFORE any publish step, so the artifact exists even if publishing fails.
+      - name: Upload .vsix as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.meta.outputs.vsix }}
+          path: ${{ steps.meta.outputs.vsix }}
+          if-no-files-found: error
+
+      - name: Extract release notes from CHANGELOG
+        id: notes
+        run: |
+          set -euo pipefail
+          VERSION="${{ steps.meta.outputs.version }}"
+          FILE="${RUNNER_TEMP}/release-notes.md"
+          awk -v ver="$VERSION" '
+            $0 ~ "^## \\[" ver "\\]" { found=1; next }
+            found && /^## / { exit }
+            found { print }
+          ' CHANGELOG.md > "$FILE" || true
+
+          if [ -s "$FILE" ]; then
+            echo "::notice::Using CHANGELOG entry for ${VERSION} as release notes."
+            echo "generated=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "::warning::No CHANGELOG entry for ${VERSION}; falling back to auto-generated notes."
+            echo "generated=true" >> "$GITHUB_OUTPUT"
+          fi
+          echo "file=$FILE" >> "$GITHUB_OUTPUT"
+
+      # ---- Below here only runs on a real tag push, or a manual run with dry_run unchecked ----
+
+      - name: Publish to VS Code Marketplace
+        if: ${{ github.event_name == 'push' || inputs.dry_run == false }}
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+        run: npx --yes "@vscode/vsce@${VSCE_VERSION}" publish --packagePath "${{ steps.meta.outputs.vsix }}"
+
+      - name: Publish to Open VSX
+        if: ${{ github.event_name == 'push' || inputs.dry_run == false }}
+        env:
+          OVSX_PAT: ${{ secrets.OVSX_PAT }}
+        run: npx --yes "ovsx@${OVSX_VERSION}" publish "${{ steps.meta.outputs.vsix }}" -p "$OVSX_PAT"
+
+      - name: Create GitHub Release
+        if: ${{ github.event_name == 'push' || inputs.dry_run == false }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG="${GITHUB_REF_NAME}"
+          VSIX="${{ steps.meta.outputs.vsix }}"
+          if [ "${{ steps.notes.outputs.generated }}" = "true" ]; then
+            gh release create "$TAG" "$VSIX" --title "$TAG" --verify-tag --generate-notes
+          else
+            gh release create "$TAG" "$VSIX" --title "$TAG" --verify-tag \
+              --notes-file "${{ steps.notes.outputs.file }}"
+          fi

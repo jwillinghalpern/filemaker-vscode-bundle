@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - run: npm ci
+
+      - run: npm run compile
+
+      - run: npm run lint
+
+      # Catch packaging breakage at PR time rather than at tag time.
+      - name: Package (smoke test)
+        run: npx --yes "@vscode/vsce@3" package --out "ci-build.vsix"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ci-vsix
+          path: ci-build.vsix
+          retention-days: 7
+          if-no-files-found: error

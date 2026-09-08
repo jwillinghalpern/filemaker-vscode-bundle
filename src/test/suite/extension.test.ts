@@ -12,5 +12,4 @@ suite('Extension Test Suite', () => {
     assert.strictEqual(-1, [1, 2, 3].indexOf(5));
     assert.strictEqual(-1, [1, 2, 3].indexOf(0));
   });
-  test('Add test for the jsonToJsonSetElement command');
 });
