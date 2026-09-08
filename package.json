@@ -2,7 +2,7 @@
 	"name": "filemaker-vscode",
 	"displayName": "FileMaker VSCode",
 	"description": "FileMaker syntax, snippets, and functions",
-	"version": "1.10.0",
+	"version": "1.10.1",
 	"publisher": "jwillinghalpern",
 	"license": "MIT",
 	"scripts": {
